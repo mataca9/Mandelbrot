@@ -3,6 +3,7 @@ package mandelbrot;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import javax.imageio.ImageIO;
+import java.util.concurrent;
 
 /** MandelbrotRenderer.java
  * The thread class that will do the work of making images of the Mandelbrot set.

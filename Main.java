@@ -15,7 +15,10 @@ public class Main {
     public static void main(String[] args) {
         // The number of threads to use.  We will use 4 because I have a
         // Quad-core processor.  (Intel i5)
-        int numThreads = 4;
+        
+        // Matheus Streb:
+        // tested on i7 4770k
+        int numThreads = 8;
         // The threads used in this program
         Thread[] threads = new Thread[numThreads];
         // The number of pictures per thread
